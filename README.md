@@ -1,6 +1,6 @@
-**Analyse all requests sent from your mobile device while using any app**
+**Analyse requests sent from your mobile device while using any app**
 
-Read more about the project at timsh.org
+Read more about the project at [timsh.org](https://timsh.org/everyone-knows-your-location-part-2-try-it-yourself)
 
 Fill in the form if you found something interesting in the requests - let's analyse all apps from the [list](https://docs.google.com/spreadsheets/d/1fJbNT-kmfuWUlIpYr9sduvjZS1ggrmhydCzoDlqaMaA/) together!
 
