@@ -62,6 +62,8 @@ Fill in the form if you found something interesting in the requests - let's anal
 
 ---
 
-** Check the instructions in [visualise_domains.ipynb](https://github.com/tim-sha256/analyse-ad-traffic/blob/main/visualise_domains.ipynb) to create a visualisation of domain and subdomain frequency in the data - just like this one: **
+
+**Check the instructions in [visualise_domains.ipynb](https://github.com/tim-sha256/analyse-ad-traffic/blob/main/visualise_domains.ipynb) to create a visualisation of domain and subdomain frequency in the data - just like this one:**
+
 <img width="1091" alt="Screenshot 2025-04-16 at 19 20 25" src="https://github.com/user-attachments/assets/d6a259f2-1962-4532-899f-1a4f6b0062d1" />
 
