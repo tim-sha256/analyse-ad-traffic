@@ -1,3 +1,11 @@
+**Analyse all requests sent from your mobile device while using any app**
+
+Read more about the project at timsh.org
+
+Fill in the form if you found something interesting in the requests - let's analyse all apps from the [list](https://docs.google.com/spreadsheets/d/1fJbNT-kmfuWUlIpYr9sduvjZS1ggrmhydCzoDlqaMaA/) together!
+
+---
+**Follow this process**
 
 1. **Install mitmproxy** 
    https://docs.mitmproxy.org/stable/overview-installation/
@@ -35,7 +43,7 @@
    Now you're able to intercept and decrypt all traffic going through iPhone. 
    If you only want to record traffic coming from a specific app, close all apps, "Clear flows" in MitmWeb and then open the desired app. 
    
-5. Take any app from the list https://docs.google.com/spreadsheets/d/1Ukgd0gIWd9gpV6bOx2pcSHsVO6yIUqbjnlM4ewjO6Cs/edit?ref=timsh.org&pli=1&gid=1257088277#gid=1257088277 (or just any app)
+5. Take any app from the [list](https://docs.google.com/spreadsheets/d/1fJbNT-kmfuWUlIpYr9sduvjZS1ggrmhydCzoDlqaMaA) (or just any app)
    
    In order to download it from App Store, you might have to turn off proxy on iphone, download the app and then turn it on again and clear the flows. 
    
@@ -45,9 +53,15 @@
    
    This will give you a `flows` file - rename it as "appname.flow"
    
-8. Open the `mitm_test.ipynb` - either in local Jupyter Notebook or in Google Colab, both work fine. 
+8. Open the [mitm_test.ipynb](https://github.com/tim-sha256/analyse-ad-traffic/blob/main/mitm_test.ipynb) - either in local Jupyter Notebook or in Google Colab, both work fine. 
    Further instructions are included in the file itself. 
    
 9. Repeat steps 5-7 for as much apps as you need, just don't forget to clear the flows before each recording. 
    When you're done, press `Ctrl+C` in terminal to stop mitmproxy and turn off proxy on iphone. 
-   If that's your main device, you also MUST turn off the certificate trust setting that you enabled before. 
+   If that's your main device, you also MUST turn off the certificate trust setting that you enabled before.
+
+---
+
+** Check the instructions in [visualise_domains.ipynb](https://github.com/tim-sha256/analyse-ad-traffic/blob/main/visualise_domains.ipynb) to create a visualisation of domain and subdomain frequency in the data - just like this one: **
+<img width="1091" alt="Screenshot 2025-04-16 at 19 20 25" src="https://github.com/user-attachments/assets/d6a259f2-1962-4532-899f-1a4f6b0062d1" />
+
